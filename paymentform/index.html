@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  
+  <title>Add Payment</title>
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+ <div class="main-container">
+    <div class="content">
+              <div class="text-content animated fadeInRight ">
+                 <h3>Add Payment Mehod</h3>
+                 <figure>
+                  <i class="fa fa-credit-card-alt fa-5x animated heartBeat delay-1s" aria-hidden="true"></i>
+              </figure>
+                </div>
+            
+              <div class="form animated fadeInDown delay-0.5s" >
+             
+               
+                <form   autocomplete="off" method="POST" >
+                      <input type="number" placeholder="Credit card no." required  min="0">
+                      <input type="text" placeholder="Name on card" required >
+                      <main>
+                      <input type="date" placeholder="Date" class="mid-inp" required >
+                      <input type="email" placeholder="CVV" class="mid-inp" required >
+                    </main>
+                      <input list="country" placeholder="Country" required>
+                      <datalist id="country">
+                        <option>India</option>
+                        <option>U.S.</option>
+                        <option>England</option>
+                        <option>Japan</option>
+                        <option>AGANISTHAN</option>
+                      </datalist>
+                      <main>
+                    <button type="submit" class="second mid-inp">Save</button>
+                    <button type="reset " class="mid-inp">Cancel</button>
+                  </main>
+                 
+                </form>
+              </div>
+    </div>
+
+ </div>
+ <script>
+   
+</script>
+</body>
+</html>
